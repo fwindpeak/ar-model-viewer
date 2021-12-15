@@ -21,7 +21,8 @@ import environment from './assets/moon_1k.hdr?url';
 
 <style>
 #app .model-viewer {
-  width: 100vw;
-  height: 100vh;
+  width: calc(100vw - 10px);
+  height: calc(100vh - 100px);
+  margin: auto;
 }
 </style>
